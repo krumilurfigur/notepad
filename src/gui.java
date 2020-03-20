@@ -4,7 +4,7 @@ public class gui {
     private JPanel panel;
     private JTextArea textArea1;
     private JScrollPane scroll;
-    private JButton file;
+    private JButton saveButton;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("gui");
@@ -13,4 +13,6 @@ public class gui {
         frame.pack();
         frame.setVisible(true);
     }
+    public abstract void saveButton(click)
 }
+
